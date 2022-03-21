@@ -64,6 +64,16 @@
                                 @endif
                             </div>
                         </div>
+
+                        <div class="form-group row">
+                            <div class="flex items-center justify-end mt-4">
+                                <a href="{{ url('/auth/google') }}"  style="background: #000000; color: #ffffff; padding: 10px; width: 100%; text-align: center; display: block; border-radius:3px;"
+                                    class="btn btn-github"><i class="fa fa-github"></i> Google</a>
+                            </div>
+
+
+                           
+                        </div>
                     </form>
                 </div>
             </div>
@@ -71,3 +81,4 @@
     </div>
 </div>
 @endsection
+
