@@ -311,6 +311,10 @@
                     <div class="d-flex">
                       <div>
                         <h2 class="mb-0 font-weight-normal"><i class="icon-sun mr-2"></i>31<sup>C</sup></h2>
+                        @php
+                          $mytime = Carbon\Carbon::now();
+                          echo $mytime->toRfc850String();
+                        @endphp
                       </div>
                       <div class="ml-2">
                         <h4 class="location font-weight-normal">Bangalore</h4>
