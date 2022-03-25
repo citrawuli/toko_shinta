@@ -317,8 +317,8 @@
                         @endphp
                       </div>
                       <div class="ml-2">
-                        <h4 class="location font-weight-normal">Bangalore</h4>
-                        <h6 class="font-weight-normal">India</h6>
+                        <h4 class="location font-weight-normal">{{ $cityName }}</h4>
+                        <h6 class="font-weight-normal">{{ $countryName }}</h6>
                       </div>
                     </div>
                   </div>
